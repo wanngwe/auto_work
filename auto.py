@@ -99,8 +99,6 @@ def calc():
 def stop_calc(): 
     stop=1
 Button(root,text='发帖',command=calc).grid(row=23,column=0,pady =40)
-data = xlrd.open_workbook("C:/Users/Administrator/Desktop/sublimetext/2.xlsx")
-table = data.sheets()[0]
-nrows = table.nrows
+
 
 root.mainloop() #进入消息循环（必需组件）
